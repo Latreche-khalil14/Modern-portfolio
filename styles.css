@@ -7,18 +7,18 @@
 
 :root {
   /* Default theme */
-  --bg-color: #141414;
+  --bg-color: transparent;
   --text-color: #ff8c00;
   --text-dim: rgba(255, 140, 0, 0.7);
   --text-bright: #ffaa33;
   --text-highlight: #ffcc66;
   --text-error: #ff6b6b;
   --border-color: rgba(255, 140, 0, 0.3);
-  --terminal-bg: #1a1a1a;
+  --terminal-bg: transparent;
   --terminal-highlight: rgba(255, 140, 0, 0.1);
   --input-color: #ff8c00;
   --prompt-color: #ff8c00;
-  --header-bg: #0f0f0f;
+  --header-bg: rgba(15, 15, 15, 0.6);
   --success-color: #98fb98;
 }
 
@@ -564,7 +564,7 @@ body {
 }
 
 .default-theme {
-  background-color: #141414;
+  background-color: transparent;
   position: relative;
 }
 

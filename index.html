@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -252,15 +252,52 @@
                 </div>
             </div>
         </div>
-        <div class="tech-badges">
-            <span class="tech-badge"><i class="fab fa-node-js"></i> Node.js</span>
-            <span class="tech-badge"><i class="fab fa-react"></i> React</span>
-            <span class="tech-badge"><i class="fab fa-python"></i> Python</span>
-            <span class="tech-badge"><i class="fab fa-js"></i> JavaScript</span>
-            <span class="tech-badge"><i class="fab fa-html5"></i> HTML</span>
-            <span class="tech-badge"><i class="fab fa-css3"></i> TypeScript</span>
-            <span class="tech-badge"><i class="fab fa-google"></i> Google Cloud</span>
-            <span class="tech-badge"><i class="fab fa-docker"></i> Docker</span>
+        <!-- Skills Marquee Ticker -->
+        <div class="skills-marquee-section">
+            <!-- Row 1 → scrolls left -->
+            <div class="marquee-track marquee-left">
+                <div class="marquee-inner">
+                    <span class="marquee-tag" style="--tag-bg:#a8e6cf;"><i class="fab fa-node-js"></i> Node.js</span>
+                    <span class="marquee-tag" style="--tag-bg:#66d9ef;"><i class="fab fa-react"></i> React</span>
+                    <span class="marquee-tag" style="--tag-bg:#ffd93d;"><i class="fab fa-python"></i> Python</span>
+                    <span class="marquee-tag" style="--tag-bg:#ffd93d;"><i class="fab fa-js-square"></i> JavaScript</span>
+                    <span class="marquee-tag" style="--tag-bg:#ff6b9d;"><i class="fab fa-html5"></i> HTML</span>
+                    <span class="marquee-tag" style="--tag-bg:#66d9ef;"><i class="fas fa-code"></i> TypeScript</span>
+                    <span class="marquee-tag" style="--tag-bg:#ff6b9d;"><i class="fab fa-google"></i> Google Cloud</span>
+                    <span class="marquee-tag" style="--tag-bg:#a8e6cf;"><i class="fab fa-docker"></i> Docker</span>
+                    <!-- duplicate for seamless loop -->
+                    <span class="marquee-tag" style="--tag-bg:#a8e6cf;"><i class="fab fa-node-js"></i> Node.js</span>
+                    <span class="marquee-tag" style="--tag-bg:#66d9ef;"><i class="fab fa-react"></i> React</span>
+                    <span class="marquee-tag" style="--tag-bg:#ffd93d;"><i class="fab fa-python"></i> Python</span>
+                    <span class="marquee-tag" style="--tag-bg:#ffd93d;"><i class="fab fa-js-square"></i> JavaScript</span>
+                    <span class="marquee-tag" style="--tag-bg:#ff6b9d;"><i class="fab fa-html5"></i> HTML</span>
+                    <span class="marquee-tag" style="--tag-bg:#66d9ef;"><i class="fas fa-code"></i> TypeScript</span>
+                    <span class="marquee-tag" style="--tag-bg:#ff6b9d;"><i class="fab fa-google"></i> Google Cloud</span>
+                    <span class="marquee-tag" style="--tag-bg:#a8e6cf;"><i class="fab fa-docker"></i> Docker</span>
+                </div>
+            </div>
+            <!-- Row 2 → scrolls right -->
+            <div class="marquee-track marquee-right">
+                <div class="marquee-inner">
+                    <span class="marquee-tag" style="--tag-bg:#ffd93d;"><i class="fab fa-css3-alt"></i> CSS3</span>
+                    <span class="marquee-tag" style="--tag-bg:#a8e6cf;"><i class="fas fa-database"></i> SQL</span>
+                    <span class="marquee-tag" style="--tag-bg:#66d9ef;"><i class="fab fa-git-alt"></i> Git</span>
+                    <span class="marquee-tag" style="--tag-bg:#ff6b9d;"><i class="fab fa-linux"></i> Linux</span>
+                    <span class="marquee-tag" style="--tag-bg:#ffd93d;"><i class="fas fa-brain"></i> Machine Learning</span>
+                    <span class="marquee-tag" style="--tag-bg:#a8e6cf;"><i class="fas fa-server"></i> REST APIs</span>
+                    <span class="marquee-tag" style="--tag-bg:#66d9ef;"><i class="fas fa-cube"></i> MongoDB</span>
+                    <span class="marquee-tag" style="--tag-bg:#ff6b9d;"><i class="fab fa-github"></i> GitHub</span>
+                    <!-- duplicate -->
+                    <span class="marquee-tag" style="--tag-bg:#ffd93d;"><i class="fab fa-css3-alt"></i> CSS3</span>
+                    <span class="marquee-tag" style="--tag-bg:#a8e6cf;"><i class="fas fa-database"></i> SQL</span>
+                    <span class="marquee-tag" style="--tag-bg:#66d9ef;"><i class="fab fa-git-alt"></i> Git</span>
+                    <span class="marquee-tag" style="--tag-bg:#ff6b9d;"><i class="fab fa-linux"></i> Linux</span>
+                    <span class="marquee-tag" style="--tag-bg:#ffd93d;"><i class="fas fa-brain"></i> Machine Learning</span>
+                    <span class="marquee-tag" style="--tag-bg:#a8e6cf;"><i class="fas fa-server"></i> REST APIs</span>
+                    <span class="marquee-tag" style="--tag-bg:#66d9ef;"><i class="fas fa-cube"></i> MongoDB</span>
+                    <span class="marquee-tag" style="--tag-bg:#ff6b9d;"><i class="fab fa-github"></i> GitHub</span>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -331,7 +368,7 @@
 
             <div class="timeline-list">
 
-                <div class="timeline-item-flat" id="exp-1">
+                <div class="timeline-item-flat" id="exp-1" data-country="Algeria">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content-flat">
                         <h4 class="timeline-title">Computer Science Student @ University of 20 August 1955 Skikda</h4>
@@ -346,7 +383,7 @@
                     </div>
                 </div>
 
-                <div class="timeline-item-flat" id="exp-2">
+                <div class="timeline-item-flat" id="exp-2" data-country="Algeria">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content-flat">
                         <h4 class="timeline-title">Web Development Enthusiast</h4>
@@ -361,7 +398,7 @@
                     </div>
                 </div>
 
-                <div class="timeline-item-flat" id="exp-3">
+                <div class="timeline-item-flat" id="exp-3" data-country="Algeria">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content-flat">
                         <h4 class="timeline-title">Programming & Software Development Practice</h4>
@@ -376,7 +413,7 @@
                     </div>
                 </div>
 
-                <div class="timeline-item-flat" id="exp-4">
+                <div class="timeline-item-flat" id="exp-4" data-country="Algeria">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content-flat">
                         <h4 class="timeline-title">Interested in Artificial Intelligence</h4>
@@ -860,7 +897,7 @@
                 </div>
 
                 <div class="language-item">
-                    <span class="language-name-inline">English (B1)</span>
+                    <span class="language-name-inline">English</span>
                     <div class="language-stars">
                         <span class="star filled"></span>
                         <span class="star filled"></span>
@@ -904,17 +941,17 @@
             
             <!-- Certification Card 1 -->
             <div class="card education-card" style="margin-bottom: 2rem;">
-                <div class="cert-image-container" style="position: relative; width: 100%; height: 350px; overflow: hidden; border: var(--border-width) solid var(--border); box-shadow: 4px 4px 0 var(--border); margin-bottom: 1.5rem; background: #ffffff; padding: 0.5rem; display: flex; align-items: center; justify-content: center;">
+                <div class="cert-image-container" style="position: relative; width: 100%; height: 350px; overflow: hidden; border: var(--border-width) solid var(--border); box-shadow: 4px 4px 0 var(--border); margin-bottom: 0.75rem; background: #ffffff; padding: 0.5rem; display: flex; align-items: center; justify-content: center;">
                     <img src="image/certificate/responsive-web-design.png" alt="Responsive Web Design Certification" style="max-width: 100%; max-height: 100%; object-fit: contain;">
                 </div>
-                <div class="education-header">
-                    <div>
-                        <h3 class="education-title" style="font-size: 1.4rem;">Responsive Web Design</h3>
-                        <p class="education-school" style="font-size: 1.05rem;"><i class="fab fa-free-code-camp"></i> freeCodeCamp</p>
-                    </div>
-                    <span class="badge">300+ Hours</span>
+                <div class="education-header" style="display: block;">
+                    <h3 class="education-title" style="font-size: 1.4rem;">Responsive Web Design</h3>
+                    <p class="education-school" style="font-size: 1.05rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+                        <i class="fab fa-free-code-camp"></i> freeCodeCamp
+                        <span class="badge">300+ Hours</span>
+                    </p>
                 </div>
-                <div class="tech-tags" style="margin-top: 1rem; margin-bottom: 1.25rem;">
+                <div class="tech-tags" style="margin-top: 0.5rem; margin-bottom: 0.5rem;">
                     <span class="tag"><i class="fab fa-html5"></i> HTML5</span>
                     <span class="tag"><i class="fab fa-css3-alt"></i> CSS3</span>
                     <span class="tag"><i class="fas fa-boxes"></i> Flexbox</span>
@@ -928,17 +965,17 @@
 
             <!-- Certification Card 2 -->
             <div class="card education-card">
-                <div class="cert-image-container" style="position: relative; width: 100%; height: 350px; overflow: hidden; border: var(--border-width) solid var(--border); box-shadow: 4px 4px 0 var(--border); margin-bottom: 1.5rem; background: #ffffff; padding: 0.5rem; display: flex; align-items: center; justify-content: center;">
+                <div class="cert-image-container" style="position: relative; width: 100%; height: 350px; overflow: hidden; border: var(--border-width) solid var(--border); box-shadow: 4px 4px 0 var(--border); margin-bottom: 0.75rem; background: #ffffff; padding: 0.5rem; display: flex; align-items: center; justify-content: center;">
                     <img src="image/certificate/js-datastructure.png" alt="JavaScript Algorithms &amp; Data Structures Certification" style="max-width: 100%; max-height: 100%; object-fit: contain;">
                 </div>
-                <div class="education-header">
-                    <div>
-                        <h3 class="education-title" style="font-size: 1.4rem;">JavaScript Algorithms and Data Structures</h3>
-                        <p class="education-school" style="font-size: 1.05rem;"><i class="fab fa-free-code-camp"></i> freeCodeCamp</p>
-                    </div>
-                    <span class="badge">300+ Hours</span>
+                <div class="education-header" style="display: block;">
+                    <h3 class="education-title" style="font-size: 1.4rem;">JavaScript Algorithms and Data Structures</h3>
+                    <p class="education-school" style="font-size: 1.05rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+                        <i class="fab fa-free-code-camp"></i> freeCodeCamp
+                        <span class="badge">300+ Hours</span>
+                    </p>
                 </div>
-                <div class="tech-tags" style="margin-top: 1rem; margin-bottom: 1.25rem;">
+                <div class="tech-tags" style="margin-top: 0.5rem; margin-bottom: 0.5rem;">
                     <span class="tag"><i class="fab fa-js"></i> ES6</span>
                     <span class="tag"><i class="fas fa-square-root-alt"></i> Algorithms</span>
                     <span class="tag"><i class="fas fa-network-wired"></i> Data Structures</span>
@@ -1549,7 +1586,8 @@
         setTimeout(matrixTypingEffect, 500);
 
         // Journey Map with Leaflet
-        const initialView = { center: [48.5, 10], zoom: 4 };
+        const isMobile = window.innerWidth < 769;
+        const initialView = { center: [30, 3.5], zoom: isMobile ? 2.5 : 5 };
 
         const map = L.map('journey-map', {
             center: initialView.center,
@@ -1586,8 +1624,8 @@
         // My academic and learning journey
 const locations = [
     {
-        coords: [34.8669, 7.5], // Skikda
-        country: 'Algeria',
+        coords: isMobile ? [32.0, 6.9012] : [35.9, 6.9012], // Skikda
+        country: 'Algeria-Skikda',
         companies: [
             {
                 city: 'Skikda',
@@ -1921,7 +1959,35 @@ const locations = [
 
                 startAutoplay();
             });
+
+            // Modal screenshots gallery thumbnail switching logic
+            const galleryThumbs = document.querySelectorAll('.modal-gallery-thumb');
+            galleryThumbs.forEach(thumb => {
+                thumb.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    const container = this.closest('.modal-gallery-container');
+                    const mainImg = container.querySelector('.modal-gallery-preview-img');
+                    const caption = container.querySelector('.modal-gallery-caption');
+                    
+                    // Remove active class from all other siblings
+                    container.querySelectorAll('.modal-gallery-thumb').forEach(t => t.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Fade out main preview, swap source/caption, and fade back in
+                    if (mainImg) {
+                        mainImg.style.opacity = '0';
+                        setTimeout(() => {
+                            mainImg.src = this.src;
+                            mainImg.alt = this.alt;
+                            if (caption) {
+                                caption.textContent = this.getAttribute('data-caption') || '';
+                            }
+                            mainImg.style.opacity = '1';
+                        }, 200);
+                    }
+                });
         });
+    });
 
     </script>
 
@@ -1932,6 +1998,7 @@ const locations = [
             <button class="neo-modal-close" aria-label="Close modal">
                 <i class="fas fa-times"></i>
             </button>
+
             
             <div class="neo-modal-body">
                 <!-- Modal Header -->
@@ -1942,6 +2009,21 @@ const locations = [
                         <i class="fas fa-award"></i> Designed to address the recruitment AI trilemma: 
                         <strong>Transparency, Privacy, and Candidate Development</strong>
                     </p>
+                </div>
+                
+                <!-- Project Screenshots Gallery -->
+                <div class="modal-gallery-container">
+                    <div class="modal-gallery-main">
+                        <img src="image/projects/AI-resume/implementation/landing-page-darkmode.png" alt="Landing Page (Dark Mode)" class="modal-gallery-preview-img">
+                        <div class="modal-gallery-caption">Landing Page (Dark Mode)</div>
+                    </div>
+                    <div class="modal-gallery-thumbnails">
+                        <img src="image/projects/AI-resume/implementation/landing-page-darkmode.png" alt="Landing Page (Dark Mode)" class="modal-gallery-thumb active" data-caption="Landing Page (Dark Mode)">
+                        <img src="image/projects/AI-resume/implementation/reqruiter-dashboard.png" alt="Recruiter Dashboard" class="modal-gallery-thumb" data-caption="Recruiter Dashboard">
+                        <img src="image/projects/AI-resume/implementation/candidate-analysis.png" alt="Candidate Dashboard & Gaps" class="modal-gallery-thumb" data-caption="Candidate Dashboard & Gaps">
+                        <img src="image/projects/AI-resume/implementation/deficit-analysis.png" alt="Deficit Analysis & Semantic Mapping" class="modal-gallery-thumb" data-caption="Deficit Analysis & Semantic Mapping">
+                        <img src="image/projects/AI-resume/implementation/interview-simulation.png" alt="AI Interview Simulation" class="modal-gallery-thumb" data-caption="AI Interview Simulation">
+                    </div>
                 </div>
                 
                 <!-- Hero Interactive Diagram -->
@@ -2329,6 +2411,22 @@ const locations = [
                     </p>
                 </div>
                 
+                <!-- Project Screenshots Gallery -->
+                <div class="modal-gallery-container">
+                    <div class="modal-gallery-main">
+                        <img src="image/projects/tech-store/screenshot1.png" alt="E-commerce Homepage (Desktop View)" class="modal-gallery-preview-img">
+                        <div class="modal-gallery-caption">E-commerce Homepage (Desktop View)</div>
+                    </div>
+                    <div class="modal-gallery-thumbnails">
+                        <img src="image/projects/tech-store/screenshot1.png" alt="E-commerce Homepage (Desktop View)" class="modal-gallery-thumb active" data-caption="E-commerce Homepage (Desktop View)">
+                        <img src="image/projects/tech-store/screenshot2.png" alt="Product Listings & Hardware Grid" class="modal-gallery-thumb" data-caption="Product Listings & Hardware Grid">
+                        <img src="image/projects/tech-store/screenshot5.png" alt="Detailed Product View" class="modal-gallery-thumb" data-caption="Detailed Product View">
+                        <img src="image/projects/tech-store/screenshot6.png" alt="Admin Control Panel & Sales Overview" class="modal-gallery-thumb" data-caption="Admin Control Panel & Sales Overview">
+                        <img src="image/projects/tech-store/screenshot7.png" alt="Product Inventory Management" class="modal-gallery-thumb" data-caption="Product Inventory Management">
+                        <img src="image/projects/tech-store/screenshot8.png" alt="Interactive Interface Transitions & Responsiveness" class="modal-gallery-thumb" data-caption="Interactive Interface Transitions & Responsiveness">
+                    </div>
+                </div>
+                
                 <!-- Information Flow Diagram -->
                 <div class="hero-diagram-container">
                     <h4 class="diagram-heading">
@@ -2455,6 +2553,21 @@ const locations = [
                         <span><i class="fas fa-moon"></i> Dark / Light Mode</span>
                         <span><i class="fas fa-map-marked-alt"></i> Live Map</span>
                     </p>
+                </div>
+
+                <!-- Project Screenshots Gallery -->
+                <div class="modal-gallery-container">
+                    <div class="modal-gallery-main">
+                        <img src="image/projects/portfolio/hero.png" alt="Hero Section — Bold Neobrutalist Landing" class="modal-gallery-preview-img">
+                        <div class="modal-gallery-caption">Hero Section — Bold Neobrutalist Landing</div>
+                    </div>
+                    <div class="modal-gallery-thumbnails">
+                        <img src="image/projects/portfolio/hero.png" alt="Hero Section — Bold Neobrutalist Landing" class="modal-gallery-thumb active" data-caption="Hero Section — Bold Neobrutalist Landing">
+                        <img src="image/projects/portfolio/myjourney.png" alt="My Journey — Interactive Timeline & Map" class="modal-gallery-thumb" data-caption="My Journey — Interactive Timeline & Map">
+                        <img src="image/projects/portfolio/skills.png" alt="Skills — Categorized Tech Grid" class="modal-gallery-thumb" data-caption="Skills — Categorized Tech Grid">
+                        <img src="image/projects/portfolio/projects.png" alt="Projects — Cards with Live Sliders" class="modal-gallery-thumb" data-caption="Projects — Cards with Live Sliders">
+                        <img src="image/projects/portfolio/gettouch.png" alt="Get In Touch — Contact Section" class="modal-gallery-thumb" data-caption="Get In Touch — Contact Section">
+                    </div>
                 </div>
 
                 <!-- Overview -->
@@ -2584,6 +2697,21 @@ const locations = [
                     <span class="tag"><i class="fas fa-calendar-alt"></i> FullCalendar v6</span>
                     <span class="tag"><i class="fas fa-route"></i> React Router v6</span>
                     <span class="tag"><i class="fas fa-database"></i> localStorage</span>
+                </div>
+            </div>
+            <!-- Project Screenshots Gallery -->
+            <div class="modal-gallery-container">
+                <div class="modal-gallery-main">
+                    <img src="image/projects/dashboard/dashboard-overview.png" alt="Dashboard Overview — KPIs & Charts" class="modal-gallery-preview-img">
+                    <div class="modal-gallery-caption">Dashboard Overview — KPIs & Charts</div>
+                </div>
+                <div class="modal-gallery-thumbnails">
+                    <img src="image/projects/dashboard/dashboard-overview.png" alt="Dashboard Overview — KPIs & Charts" class="modal-gallery-thumb active" data-caption="Dashboard Overview — KPIs & Charts">
+                    <img src="image/projects/dashboard/login.png" alt="Login Page — Secure Authentication" class="modal-gallery-thumb" data-caption="Login Page — Secure Authentication">
+                    <img src="image/projects/dashboard/register.png" alt="Register Page — New Account" class="modal-gallery-thumb" data-caption="Register Page — New Account">
+                    <img src="image/projects/dashboard/manage-team.png" alt="Team Management — Full CRUD" class="modal-gallery-thumb" data-caption="Team Management — Full CRUD">
+                    <img src="image/projects/dashboard/calendar.png" alt="Calendar — Event Scheduling" class="modal-gallery-thumb" data-caption="Calendar — Event Scheduling">
+                    <img src="image/projects/dashboard/listof invoives balance.png" alt="Invoices List — Balance & Status" class="modal-gallery-thumb" data-caption="Invoices List — Balance & Status">
                 </div>
             </div>
 

@@ -539,7 +539,7 @@ class TerminalResume {
         "#888888"
       ) +
       this.wrapWithColor(
-        "         Software Engineer • Cloud Architect • Tech Lead\n",
+        "       Computer Science Student & Web Developer\n",
         "#666666"
       ) +
       this.wrapWithColor(divider + "\n\n", "#555555") +
